@@ -8,7 +8,7 @@ const path = require('path');
 //Create Express app
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 10000;
 
 //To parse incoming JSON requests
 app.use(express.json());
